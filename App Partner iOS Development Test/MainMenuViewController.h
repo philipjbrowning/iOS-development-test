@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainMenuViewController.h
 //  App Partner iOS Development Test
 //
 //  Created by Philip J Browning II on 2/24/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainMenuViewController : UIViewController
 
 @end
