@@ -35,19 +35,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_apppartner" translatesAutoresizingMaskIntoConstraints="NO" id="ZAI-kI-2qZ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_apppartner" translatesAutoresizingMaskIntoConstraints="NO" id="ZAI-kI-2qZ" userLabel="Image View - background_apppartner_MainMenu">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="km2-7k-uSy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="km2-7k-uSy" userLabel="Image View - background_inner_top_MainMenu">
                                         <rect key="frame" x="10" y="74" width="300" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="AWi-hz-rtt">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="AWi-hz-rtt" userLabel="Image View - background_inner_middle_MainMenu">
                                         <rect key="frame" x="10" y="99" width="300" height="436"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Vep-Wo-0YW">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Vep-Wo-0YW" userLabel="Image View - background_inner_bottom_MainMenu">
                                         <rect key="frame" x="10" y="533" width="300" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -122,19 +122,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_apppartner" translatesAutoresizingMaskIntoConstraints="NO" id="r0X-mR-f2h">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_apppartner" translatesAutoresizingMaskIntoConstraints="NO" id="r0X-mR-f2h" userLabel="Image View - background_apppartner_Facebook">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="FFI-ng-sPq">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="FFI-ng-sPq" userLabel="Image View - background_inner_bottom_Facebook">
                                         <rect key="frame" x="10" y="533" width="300" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="FHY-le-iOR">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="FHY-le-iOR" userLabel="Image View - background_inner_middle_Facebook">
                                         <rect key="frame" x="10" y="99" width="300" height="436"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="igq-sq-44R">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="igq-sq-44R" userLabel="Image View - background_inner_top_Facebook">
                                         <rect key="frame" x="10" y="74" width="300" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -188,19 +188,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_apppartner" translatesAutoresizingMaskIntoConstraints="NO" id="vc7-EO-z92">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_apppartner" translatesAutoresizingMaskIntoConstraints="NO" id="vc7-EO-z92" userLabel="Image View - background_apppartner_Animation">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="0x0-qT-uxr">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="0x0-qT-uxr" userLabel="Image View - background_inner_top_Animation">
                                         <rect key="frame" x="10" y="74" width="300" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="Nnf-Kh-uTU">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="Nnf-Kh-uTU" userLabel="Image View - background_inner_middle_Animation">
                                         <rect key="frame" x="10" y="99" width="300" height="436"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="npK-iU-blg">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="npK-iU-blg" userLabel="Image View - background_inner_bottom_Animation">
                                         <rect key="frame" x="10" y="533" width="300" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -250,19 +250,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_apppartner" translatesAutoresizingMaskIntoConstraints="NO" id="irf-gB-A1M">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_apppartner" translatesAutoresizingMaskIntoConstraints="NO" id="irf-gB-A1M" userLabel="Image View - background_apppartner_ServerPing">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="rzK-QT-wO8">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="rzK-QT-wO8" userLabel="Image View - background_inner_top_ServerPing">
                                         <rect key="frame" x="10" y="74" width="300" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="anQ-MQ-BJ8">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="anQ-MQ-BJ8" userLabel="Image View - background_inner_middle_ServerPing">
                                         <rect key="frame" x="10" y="99" width="300" height="436"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="hBk-Qw-bEd">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="hBk-Qw-bEd" userLabel="Image View - background_inner_bottom_ServerPing">
                                         <rect key="frame" x="10" y="533" width="300" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -315,24 +315,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tFj-Ow-c2y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-127" y="704"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="B38-Xl-2ix">
-            <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="zJB-6f-4JQ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hwv-LI-sLf"/>
-                        <viewControllerLayoutGuide type="bottom" id="zKp-zk-aza"/>
-                    </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="m0x-E5-pBB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iPL-jb-hxT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <resources>
