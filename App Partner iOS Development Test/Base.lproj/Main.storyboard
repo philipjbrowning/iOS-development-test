@@ -39,16 +39,28 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="km2-7k-uSy">
+                                        <rect key="frame" x="10" y="74" width="300" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="AWi-hz-rtt">
+                                        <rect key="frame" x="10" y="99" width="300" height="436"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Vep-Wo-0YW">
+                                        <rect key="frame" x="10" y="533" width="300" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ejq-CE-T0j">
                                         <rect key="frame" x="0.0" y="0.0" width="328" height="568"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_small" translatesAutoresizingMaskIntoConstraints="NO" id="mgV-Jj-BPj">
-                                                <rect key="frame" x="63" y="100" width="202" height="51"/>
+                                                <rect key="frame" x="59" y="99" width="202" height="51"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5x-Rw-i6V">
-                                                <rect key="frame" x="24" y="503" width="280" height="45"/>
+                                                <rect key="frame" x="20" y="503" width="280" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="button_dancinganimation_off">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -58,7 +70,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="877-fV-SFr">
-                                                <rect key="frame" x="24" y="450" width="280" height="45"/>
+                                                <rect key="frame" x="20" y="450" width="280" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="button_serverping_off">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -68,7 +80,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zwj-yE-oeo">
-                                                <rect key="frame" x="24" y="397" width="280" height="45"/>
+                                                <rect key="frame" x="20" y="397" width="280" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="button_facebook_friends_off">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -94,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="-127" y="-100"/>
         </scene>
-        <!--View Controller - Facebook-->
+        <!--Facebook View Controller - Facebook-->
         <scene sceneID="Qhl-OY-aOR">
             <objects>
-                <viewController id="x3H-MG-YqL" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Facebook" useStoryboardIdentifierAsRestorationIdentifier="YES" id="x3H-MG-YqL" customClass="FacebookViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mhj-nl-yr8"/>
                         <viewControllerLayoutGuide type="bottom" id="Czt-7Z-Xiu"/>
@@ -148,10 +160,10 @@
             </objects>
             <point key="canvasLocation" x="441" y="-100"/>
         </scene>
-        <!--View Controller - Animation-->
+        <!--Animation View Controller - Animation-->
         <scene sceneID="lDx-ar-g8w">
             <objects>
-                <viewController id="wnJ-if-FdG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Animation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wnJ-if-FdG" customClass="AnimationViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QOc-U0-hfr"/>
                         <viewControllerLayoutGuide type="bottom" id="yBm-4f-wcc"/>
@@ -168,6 +180,18 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="0x0-qT-uxr">
+                                        <rect key="frame" x="10" y="74" width="300" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="Nnf-Kh-uTU">
+                                        <rect key="frame" x="10" y="99" width="300" height="436"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="npK-iU-blg">
+                                        <rect key="frame" x="10" y="533" width="300" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbf-QF-8JH">
                                         <rect key="frame" x="20" y="503" width="280" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -175,17 +199,17 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aTt-N9-WBn">
+                                        <rect key="frame" x="20" y="99" width="280" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">Animate the images of the character. Make the character move up and down while tilting left and right. Bonus points if you add music and more characters.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aTt-N9-WBn">
-                                <rect key="frame" x="20" y="77" width="280" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Animate the images of the character. Make the character move up and down while tilting left and right. Bonus points if you add music and more characters.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYY-ub-gWy">
                                 <rect key="frame" x="40" y="262" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -199,10 +223,10 @@
             </objects>
             <point key="canvasLocation" x="-128" y="-894"/>
         </scene>
-        <!--View Controller - Server Ping-->
+        <!--Server Ping View Controller - Server Ping-->
         <scene sceneID="Eok-ZI-hDT">
             <objects>
-                <viewController id="fSq-Kv-8gt" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ServerPing" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fSq-Kv-8gt" customClass="ServerPingViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cf2-3Y-1yh"/>
                         <viewControllerLayoutGuide type="bottom" id="F8L-pj-7Tg"/>
@@ -218,6 +242,18 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_apppartner" translatesAutoresizingMaskIntoConstraints="NO" id="irf-gB-A1M">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_top" translatesAutoresizingMaskIntoConstraints="NO" id="rzK-QT-wO8">
+                                        <rect key="frame" x="10" y="74" width="300" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_middle" translatesAutoresizingMaskIntoConstraints="NO" id="anQ-MQ-BJ8">
+                                        <rect key="frame" x="10" y="99" width="300" height="436"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_inner_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="hBk-Qw-bEd">
+                                        <rect key="frame" x="10" y="533" width="300" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qw1-60-f6b">
                                         <rect key="frame" x="20" y="503" width="280" height="45"/>
@@ -244,6 +280,15 @@
         <image name="background_apppartner" width="320" height="568"/>
         <image name="background_apppartner" width="320" height="568"/>
         <image name="background_apppartner" width="320" height="568"/>
+        <image name="background_inner_bottom" width="600" height="50"/>
+        <image name="background_inner_bottom" width="600" height="50"/>
+        <image name="background_inner_bottom" width="600" height="50"/>
+        <image name="background_inner_middle" width="300" height="23"/>
+        <image name="background_inner_middle" width="300" height="23"/>
+        <image name="background_inner_middle" width="300" height="23"/>
+        <image name="background_inner_top" width="300" height="25"/>
+        <image name="background_inner_top" width="300" height="25"/>
+        <image name="background_inner_top" width="300" height="25"/>
         <image name="button_dance_off" width="278" height="45"/>
         <image name="button_dancinganimation_off" width="278" height="45"/>
         <image name="button_facebook_friends_off" width="278" height="45"/>

@@ -1,25 +1,24 @@
 //
-//  MainMenuViewController.m
+//  AnimationViewController.m
 //  App Partner iOS Development Test
 //
-//  Created by Philip J Browning II on 2/24/14.
+//  Created by Philip J Browning II on 2/26/14.
 //  Copyright (c) 2014 Philip J Browning II. All rights reserved.
 //
 
-#import "MainMenuViewController.h"
+#import "AnimationViewController.h"
 
-@interface MainMenuViewController ()
+@interface AnimationViewController ()
 
 @end
 
-@implementation MainMenuViewController
+@implementation AnimationViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        
     }
     return self;
 }
