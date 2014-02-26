@@ -122,10 +122,10 @@
 			isa = PBXGroup;
 			children = (
 				8B09B20218BBC23900E25AE0 /* Main.storyboard */,
-				8B6C1F7E18BE68640036BB79 /* FacebookViewController.h */,
-				8B6C1F7F18BE68640036BB79 /* FacebookViewController.m */,
 				8B6C1F7818BE67CC0036BB79 /* AnimationViewController.h */,
 				8B6C1F7918BE67CC0036BB79 /* AnimationViewController.m */,
+				8B6C1F7E18BE68640036BB79 /* FacebookViewController.h */,
+				8B6C1F7F18BE68640036BB79 /* FacebookViewController.m */,
 				8BC1618B18BBE35500746859 /* MainMenuViewController.h */,
 				8BC1618C18BBE35500746859 /* MainMenuViewController.m */,
 				8B6C1F7B18BE68190036BB79 /* ServerPingViewController.h */,

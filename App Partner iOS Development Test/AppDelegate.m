@@ -13,6 +13,22 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    /*
+     UIImage *backImage = [[UIImage imageNamed:@"headerbutton_back_off"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13.0f, 0, 6.0f)];
+    [[UINavigationBar appearance] setBackgroundImage:backImage forBarMetrics:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBack]
+    */
+    
+    /*
+    // Set back button
+    UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60.0f, 30.0f)];
+    UIImage *backImage = [[UIImage imageNamed:@"headerbutton_back_off"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 12.0f, 0, 12.0f)];
+    [backButton setBackgroundImage:backImage forState:UIControlStateNormal];
+    [backButton setTitle:@"" forState:UIControlStateNormal];
+    UIBarButtonItem *backButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+    self.navigationController.navigationItem.backBarButtonItem = backButtonItem;
+    // [self.navigationItem.backBarButtonItem]
+    */
     return YES;
 }
 							

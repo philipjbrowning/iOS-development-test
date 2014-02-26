@@ -10,4 +10,9 @@
 
 @interface ServerPingViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *pingResponseView;
+@property (weak, nonatomic) IBOutlet UILabel *pingTimeLabel;
+
+- (IBAction)serverPingButtonPressed:(id)sender;
+
 @end
