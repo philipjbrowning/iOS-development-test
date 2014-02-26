@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FacebookViewController : UIViewController
+@interface FacebookViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *facebookTableView;
+
+- (IBAction)addButtonPressed:(id)sender;
 
 @end

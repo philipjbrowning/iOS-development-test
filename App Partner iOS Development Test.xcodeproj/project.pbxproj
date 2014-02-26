@@ -20,6 +20,7 @@
 		8B09B21218BBC23900E25AE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B09B1F418BBC23900E25AE0 /* UIKit.framework */; };
 		8B09B21A18BBC23900E25AE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B09B21818BBC23900E25AE0 /* InfoPlist.strings */; };
 		8B09B21C18BBC23900E25AE0 /* App_Partner_iOS_Development_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B09B21B18BBC23900E25AE0 /* App_Partner_iOS_Development_TestTests.m */; };
+		8B14807418BEAD1B00425C8E /* FacebookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B14807318BEAD1B00425C8E /* FacebookCell.m */; };
 		8B6C1F7A18BE67CC0036BB79 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C1F7918BE67CC0036BB79 /* AnimationViewController.m */; };
 		8B6C1F7D18BE68190036BB79 /* ServerPingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C1F7C18BE68190036BB79 /* ServerPingViewController.m */; };
 		8B6C1F8018BE68640036BB79 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C1F7F18BE68640036BB79 /* FacebookViewController.m */; };
@@ -54,6 +55,8 @@
 		8B09B21718BBC23900E25AE0 /* App Partner iOS Development TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App Partner iOS Development TestTests-Info.plist"; sourceTree = "<group>"; };
 		8B09B21918BBC23900E25AE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B09B21B18BBC23900E25AE0 /* App_Partner_iOS_Development_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App_Partner_iOS_Development_TestTests.m; sourceTree = "<group>"; };
+		8B14807218BEAD1B00425C8E /* FacebookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookCell.h; sourceTree = "<group>"; };
+		8B14807318BEAD1B00425C8E /* FacebookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookCell.m; sourceTree = "<group>"; };
 		8B6C1F7818BE67CC0036BB79 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
 		8B6C1F7918BE67CC0036BB79 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		8B6C1F7B18BE68190036BB79 /* ServerPingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerPingViewController.h; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				8B09B20218BBC23900E25AE0 /* Main.storyboard */,
 				8B6C1F7818BE67CC0036BB79 /* AnimationViewController.h */,
 				8B6C1F7918BE67CC0036BB79 /* AnimationViewController.m */,
+				8B14807218BEAD1B00425C8E /* FacebookCell.h */,
+				8B14807318BEAD1B00425C8E /* FacebookCell.m */,
 				8B6C1F7E18BE68640036BB79 /* FacebookViewController.h */,
 				8B6C1F7F18BE68640036BB79 /* FacebookViewController.m */,
 				8BC1618B18BBE35500746859 /* MainMenuViewController.h */,
@@ -273,6 +278,7 @@
 				8B6C1F7D18BE68190036BB79 /* ServerPingViewController.m in Sources */,
 				8B09B1FD18BBC23900E25AE0 /* main.m in Sources */,
 				8B6C1F7A18BE67CC0036BB79 /* AnimationViewController.m in Sources */,
+				8B14807418BEAD1B00425C8E /* FacebookCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
