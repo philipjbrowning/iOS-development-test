@@ -11,7 +11,6 @@
 
 @interface FacebookViewController ()
 
-@property (strong, nonatomic) NSMutableArray *facebookNameList; // NSString class
 @property (nonatomic) NSUInteger nameCount;
 
 @end
@@ -38,9 +37,16 @@
     // Set the color of the titleText to be white
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     
+    // Add initial names to the array
     _facebookNameList = [[NSMutableArray alloc] init];
+    [_facebookNameList addObject:@"Name 1"];
+    [_facebookNameList addObject:@"Name 2"];
+    [_facebookNameList addObject:@"Name 3"];
+    [_facebookNameList addObject:@"Name 4"];
+    _nameCount = [_facebookNameList count];
+    
     _facebookTableView.dataSource = self;
-    _nameCount = 0;
+    _facebookTableView.delegate = self;
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -78,11 +84,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *cellIdentifier = @"FacebookCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    FacebookCell *cell = (FacebookCell*)[tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.textLabel.text = [NSString stringWithFormat:@"Name %ld", indexPath.row];
-    cell.tag = indexPath.row;
+    cell.facebookName.text = [_facebookNameList objectAtIndex:indexPath.row];
+    // [cell.facebookImage setImage:<#(UIImage *)#>];
     return cell;
 }
 

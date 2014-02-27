@@ -10,4 +10,7 @@
 
 @interface FacebookCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *facebookImage;
+@property (weak, nonatomic) IBOutlet UILabel *facebookName;
+
 @end

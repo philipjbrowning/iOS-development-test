@@ -145,30 +145,35 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Afm-Rz-3eK">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="51" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Afm-Rz-3eK">
                                         <rect key="frame" x="20" y="99" width="280" height="396"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
                                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="FacebookCell" id="mju-vD-op5" customClass="FacebookCell">
-                                                <rect key="frame" x="0.0" y="22" width="280" height="44"/>
+                                                <rect key="frame" x="0.0" y="22" width="280" height="51"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mju-vD-op5" id="gRa-ho-PjR">
-                                                    <rect key="frame" x="0.0" y="0.0" width="247" height="43"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="247" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_facebook_portrait" translatesAutoresizingMaskIntoConstraints="NO" id="b6E-IM-X5o">
-                                                            <rect key="frame" x="7" y="5" width="36" height="36"/>
+                                                            <rect key="frame" x="7" y="7" width="36" height="36"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         </imageView>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1s-df-MYt">
-                                                            <rect key="frame" x="49" y="11" width="198" height="21"/>
+                                                            <rect key="frame" x="56" y="14" width="171" height="21"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                 </tableViewCellContentView>
+                                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <connections>
+                                                    <outlet property="facebookImage" destination="b6E-IM-X5o" id="jRg-bo-mL9"/>
+                                                    <outlet property="facebookName" destination="b1s-df-MYt" id="gxG-Rb-N6U"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                     </tableView>
@@ -346,26 +351,13 @@
     </scenes>
     <resources>
         <image name="background_apppartner" width="320" height="568"/>
-        <image name="background_apppartner" width="320" height="568"/>
-        <image name="background_apppartner" width="320" height="568"/>
-        <image name="background_apppartner" width="320" height="568"/>
-        <image name="background_inner_bottom" width="600" height="50"/>
-        <image name="background_inner_bottom" width="600" height="50"/>
-        <image name="background_inner_bottom" width="600" height="50"/>
         <image name="background_inner_bottom" width="600" height="50"/>
         <image name="background_inner_middle" width="300" height="23"/>
-        <image name="background_inner_middle" width="300" height="23"/>
-        <image name="background_inner_middle" width="300" height="23"/>
-        <image name="background_inner_middle" width="300" height="23"/>
-        <image name="background_inner_top" width="300" height="25"/>
-        <image name="background_inner_top" width="300" height="25"/>
-        <image name="background_inner_top" width="300" height="25"/>
         <image name="background_inner_top" width="300" height="25"/>
         <image name="button_dance_off" width="278" height="45"/>
         <image name="button_dancinganimation_off" width="278" height="45"/>
         <image name="button_facebook_friends_off" width="278" height="45"/>
         <image name="button_reload_off" width="278" height="45"/>
-        <image name="button_serverping_off" width="278" height="45"/>
         <image name="button_serverping_off" width="278" height="45"/>
         <image name="character" width="85" height="69"/>
         <image name="frame_popup" width="271" height="109"/>
