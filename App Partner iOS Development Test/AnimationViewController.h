@@ -12,7 +12,10 @@
 @interface AnimationViewController : UIViewController <AVAudioPlayerDelegate>
 
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
-@property (weak, nonatomic) IBOutlet UIImageView *character;
+@property (strong, nonatomic) UIImage *character;
+@property (weak, nonatomic) IBOutlet UIImageView *characterView;
+@property (weak, nonatomic) IBOutlet UILabel *textInstructionsLabel;
+@property (weak, nonatomic) IBOutlet UIButton *danceButton;
 
 - (IBAction)danceStartStopPressed:(id)sender;
 

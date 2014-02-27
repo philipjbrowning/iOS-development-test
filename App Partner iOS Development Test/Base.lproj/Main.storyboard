@@ -240,17 +240,17 @@
                                             <action selector="danceStartStopPressed:" destination="wnJ-if-FdG" eventType="touchUpInside" id="dzT-mt-QfY"/>
                                         </connections>
                                     </button>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aTt-N9-WBn">
-                                        <rect key="frame" x="20" y="99" width="280" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Animate the images of the character. Make the character move up and down while tilting left and right. Bonus points if you add music and more characters.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="character" translatesAutoresizingMaskIntoConstraints="NO" id="SYY-ub-gWy">
-                                        <rect key="frame" x="118" y="365" width="85" height="69"/>
+                                        <rect key="frame" x="118" y="426" width="85" height="69"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3Y-ap-7yo">
+                                        <rect key="frame" x="20" y="99" width="280" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
@@ -259,7 +259,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Animation" id="E1U-uI-xrM"/>
                     <connections>
-                        <outlet property="character" destination="SYY-ub-gWy" id="lgh-uU-XC6"/>
+                        <outlet property="characterView" destination="SYY-ub-gWy" id="30E-Pm-Gp1"/>
+                        <outlet property="danceButton" destination="gbf-QF-8JH" id="vSU-dz-C6D"/>
+                        <outlet property="textInstructionsLabel" destination="g3Y-ap-7yo" id="Ehx-m4-5wi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rtx-46-dC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -351,26 +353,13 @@
     </scenes>
     <resources>
         <image name="background_apppartner" width="320" height="568"/>
-        <image name="background_apppartner" width="320" height="568"/>
-        <image name="background_apppartner" width="320" height="568"/>
-        <image name="background_apppartner" width="320" height="568"/>
-        <image name="background_inner_bottom" width="600" height="50"/>
-        <image name="background_inner_bottom" width="600" height="50"/>
-        <image name="background_inner_bottom" width="600" height="50"/>
         <image name="background_inner_bottom" width="600" height="50"/>
         <image name="background_inner_middle" width="300" height="23"/>
-        <image name="background_inner_middle" width="300" height="23"/>
-        <image name="background_inner_middle" width="300" height="23"/>
-        <image name="background_inner_middle" width="300" height="23"/>
-        <image name="background_inner_top" width="300" height="25"/>
-        <image name="background_inner_top" width="300" height="25"/>
-        <image name="background_inner_top" width="300" height="25"/>
         <image name="background_inner_top" width="300" height="25"/>
         <image name="button_dance_off" width="278" height="45"/>
         <image name="button_dancinganimation_off" width="278" height="45"/>
         <image name="button_facebook_friends_off" width="278" height="45"/>
         <image name="button_reload_off" width="278" height="45"/>
-        <image name="button_serverping_off" width="278" height="45"/>
         <image name="button_serverping_off" width="278" height="45"/>
         <image name="character" width="85" height="69"/>
         <image name="frame_popup" width="271" height="109"/>

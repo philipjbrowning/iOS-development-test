@@ -26,6 +26,7 @@
 		8B6C1F7A18BE67CC0036BB79 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C1F7918BE67CC0036BB79 /* AnimationViewController.m */; };
 		8B6C1F7D18BE68190036BB79 /* ServerPingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C1F7C18BE68190036BB79 /* ServerPingViewController.m */; };
 		8B6C1F8018BE68640036BB79 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C1F7F18BE68640036BB79 /* FacebookViewController.m */; };
+		8B8D5AF518BFC48C00AF5FEA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D5AF418BFC48C00AF5FEA /* QuartzCore.framework */; };
 		8BC1618D18BBE35500746859 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1618C18BBE35500746859 /* MainMenuViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		8B6C1F7C18BE68190036BB79 /* ServerPingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerPingViewController.m; sourceTree = "<group>"; };
 		8B6C1F7E18BE68640036BB79 /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
 		8B6C1F7F18BE68640036BB79 /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+		8B8D5AF418BFC48C00AF5FEA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8BC1618B18BBE35500746859 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
 		8BC1618C18BBE35500746859 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8D5AF518BFC48C00AF5FEA /* QuartzCore.framework in Frameworks */,
 				8B14807618BEB45900425C8E /* AVFoundation.framework in Frameworks */,
 				8B09B1F318BBC23900E25AE0 /* CoreGraphics.framework in Frameworks */,
 				8B09B1F518BBC23900E25AE0 /* UIKit.framework in Frameworks */,
@@ -118,6 +121,7 @@
 		8B09B1EF18BBC23900E25AE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B8D5AF418BFC48C00AF5FEA /* QuartzCore.framework */,
 				8B14807518BEB45900425C8E /* AVFoundation.framework */,
 				8B09B1F018BBC23900E25AE0 /* Foundation.framework */,
 				8B09B1F218BBC23900E25AE0 /* CoreGraphics.framework */,
