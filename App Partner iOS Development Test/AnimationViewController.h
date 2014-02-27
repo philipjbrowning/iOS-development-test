@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface AnimationViewController : UIViewController
+@interface AnimationViewController : UIViewController <AVAudioPlayerDelegate>
+
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property (weak, nonatomic) IBOutlet UIImageView *character;
+
+- (IBAction)danceStartStopPressed:(id)sender;
 
 @end

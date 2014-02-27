@@ -21,6 +21,8 @@
 		8B09B21A18BBC23900E25AE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B09B21818BBC23900E25AE0 /* InfoPlist.strings */; };
 		8B09B21C18BBC23900E25AE0 /* App_Partner_iOS_Development_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B09B21B18BBC23900E25AE0 /* App_Partner_iOS_Development_TestTests.m */; };
 		8B14807418BEAD1B00425C8E /* FacebookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B14807318BEAD1B00425C8E /* FacebookCell.m */; };
+		8B14807618BEB45900425C8E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B14807518BEB45900425C8E /* AVFoundation.framework */; };
+		8B14807818BEB5FA00425C8E /* Linus and Lucy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B14807718BEB5FA00425C8E /* Linus and Lucy.mp3 */; };
 		8B6C1F7A18BE67CC0036BB79 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C1F7918BE67CC0036BB79 /* AnimationViewController.m */; };
 		8B6C1F7D18BE68190036BB79 /* ServerPingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C1F7C18BE68190036BB79 /* ServerPingViewController.m */; };
 		8B6C1F8018BE68640036BB79 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C1F7F18BE68640036BB79 /* FacebookViewController.m */; };
@@ -57,6 +59,8 @@
 		8B09B21B18BBC23900E25AE0 /* App_Partner_iOS_Development_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App_Partner_iOS_Development_TestTests.m; sourceTree = "<group>"; };
 		8B14807218BEAD1B00425C8E /* FacebookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookCell.h; sourceTree = "<group>"; };
 		8B14807318BEAD1B00425C8E /* FacebookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookCell.m; sourceTree = "<group>"; };
+		8B14807518BEB45900425C8E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8B14807718BEB5FA00425C8E /* Linus and Lucy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Linus and Lucy.mp3"; sourceTree = "<group>"; };
 		8B6C1F7818BE67CC0036BB79 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
 		8B6C1F7918BE67CC0036BB79 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		8B6C1F7B18BE68190036BB79 /* ServerPingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerPingViewController.h; sourceTree = "<group>"; };
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B14807618BEB45900425C8E /* AVFoundation.framework in Frameworks */,
 				8B09B1F318BBC23900E25AE0 /* CoreGraphics.framework in Frameworks */,
 				8B09B1F518BBC23900E25AE0 /* UIKit.framework in Frameworks */,
 				8B09B1F118BBC23900E25AE0 /* Foundation.framework in Frameworks */,
@@ -113,6 +118,7 @@
 		8B09B1EF18BBC23900E25AE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B14807518BEB45900425C8E /* AVFoundation.framework */,
 				8B09B1F018BBC23900E25AE0 /* Foundation.framework */,
 				8B09B1F218BBC23900E25AE0 /* CoreGraphics.framework */,
 				8B09B1F418BBC23900E25AE0 /* UIKit.framework */,
@@ -144,6 +150,7 @@
 		8B09B1F718BBC23900E25AE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B14807718BEB5FA00425C8E /* Linus and Lucy.mp3 */,
 				8B09B1FF18BBC23900E25AE0 /* AppDelegate.h */,
 				8B09B20018BBC23900E25AE0 /* AppDelegate.m */,
 				8B09B1F818BBC23900E25AE0 /* App Partner iOS Development Test-Info.plist */,
@@ -254,6 +261,7 @@
 				8B09B20918BBC23900E25AE0 /* Images.xcassets in Resources */,
 				8B09B1FB18BBC23900E25AE0 /* InfoPlist.strings in Resources */,
 				8B09B20418BBC23900E25AE0 /* Main.storyboard in Resources */,
+				8B14807818BEB5FA00425C8E /* Linus and Lucy.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -231,6 +231,9 @@
                                         <state key="normal" image="button_dance_off">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="danceStartStopPressed:" destination="wnJ-if-FdG" eventType="touchUpInside" id="dzT-mt-QfY"/>
+                                        </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aTt-N9-WBn">
                                         <rect key="frame" x="20" y="99" width="280" height="128"/>
@@ -239,17 +242,20 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="character" translatesAutoresizingMaskIntoConstraints="NO" id="SYY-ub-gWy">
+                                        <rect key="frame" x="118" y="365" width="85" height="69"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYY-ub-gWy">
-                                <rect key="frame" x="40" y="262" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Animation" id="E1U-uI-xrM"/>
+                    <connections>
+                        <outlet property="character" destination="SYY-ub-gWy" id="lgh-uU-XC6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rtx-46-dC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -361,6 +367,7 @@
         <image name="button_reload_off" width="278" height="45"/>
         <image name="button_serverping_off" width="278" height="45"/>
         <image name="button_serverping_off" width="278" height="45"/>
+        <image name="character" width="85" height="69"/>
         <image name="frame_popup" width="271" height="109"/>
         <image name="icon_facebook_portrait" width="33" height="33"/>
         <image name="logo_small" width="203" height="51"/>
