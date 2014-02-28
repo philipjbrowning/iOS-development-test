@@ -8,15 +8,28 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import <CoreMotion/CoreMotion.h>
+/*
+@protocol MotionDelegate <NSObject>
 
-@interface AnimationViewController : UIViewController <AVAudioPlayerDelegate>
+- (void)motionSentMessage:(NSString*)message;
+- (void)MotionSentX:(double)x andY:(double)y andZ:(double)z;
 
-@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
-@property (strong, nonatomic) UIImage *character;
+@end
+*/
+
+@interface AnimationViewController : UIViewController <AVAudioPlayerDelegate, UIAccelerometerDelegate>
+
 @property (weak, nonatomic) IBOutlet UIImageView *characterView;
 @property (weak, nonatomic) IBOutlet UILabel *textInstructionsLabel;
 @property (weak, nonatomic) IBOutlet UIButton *danceButton;
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property (strong, nonatomic) UIImage *character;
+@property (strong, nonatomic) CMMotionManager *motionManager;
 
 - (IBAction)danceStartStopPressed:(id)sender;
+
+// - (void)startPushingAccelerationUpdatesWithX:(double*)x andY:(double*)y andZ:(double*)z;
+// - (void)stopPushingAccelerationUpdates;
 
 @end

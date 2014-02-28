@@ -12,9 +12,10 @@
 @interface AnimationViewController ()
 
 @property BOOL dancingIsOccuring;
+@property (nonatomic) NSTimer *accelerometerDataInterval;
 
 - (void)addJumpingAnimationForLayer:(CALayer*)layer;
-// - (void)removeJumpingAnimationForLayer:(CALayer*)layer;
+// - (void)pullAccelerationWithX:(double*)x andY:(double*)y andZ:(double*)z;
 - (void)playAudio;
 - (void)stopAudio;
 
@@ -61,12 +62,24 @@
         _audioPlayer.delegate = self;
         [_audioPlayer prepareToPlay];
     }
+    
+    self.motionManager = [[CMMotionManager alloc] init];
+    self.motionManager.accelerometerUpdateInterval = 0.05; // 20 Hz
+    
+    _accelerometerDataInterval = [[NSTimer alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Accelerometer
+
+- (void)getAccelerometerValues:(NSTimer*)timer
+{
+    NSLog(@"Accelerometer (X, Y, Z) = (%.2f, %.2f, %.2f)", self.motionManager.accelerometerData.acceleration.x, self.motionManager.accelerometerData.acceleration.y, self.motionManager.accelerometerData.acceleration.z);
 }
 
 #pragma mark - Audio
@@ -165,6 +178,8 @@
 - (void)startDancing
 {
     // Start dancing
+    _accelerometerDataInterval = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(getAccelerometerValues:) userInfo:nil repeats:YES];
+    [self.motionManager startAccelerometerUpdates];
     [self addJumpingAnimationForLayer:_characterView.layer];
     _dancingIsOccuring = YES;
 }
@@ -172,7 +187,7 @@
 - (void)stopDancing
 {
     // Stop dancing
-    // [self removeJumpingAnimationForLayer:_characterView.layer];
+    _accelerometerDataInterval = nil;
     _dancingIsOccuring = NO;
 }
 
