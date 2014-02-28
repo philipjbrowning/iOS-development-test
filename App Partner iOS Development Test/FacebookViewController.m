@@ -49,9 +49,10 @@
     _facebookTableView.delegate = self;
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)viewWillDisappear:(BOOL)animated
 {
-    
+    _facebookTableView.dataSource = nil;
+    _facebookTableView.delegate = nil;
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,7 +64,8 @@
 #pragma mark - UIButton Action
 
 - (IBAction)addButtonPressed:(id)sender {
-    [_facebookNameList addObject:[NSString stringWithFormat:@"Name %lu", ++_nameCount]];
+    _nameCount++;
+    [_facebookNameList addObject:[NSString stringWithFormat:@"Name %lu", (long)_nameCount]];
     [_facebookTableView reloadData];
 }
 

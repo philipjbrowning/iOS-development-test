@@ -137,15 +137,10 @@
     
     // Add the start value. The animation starts at a y offset 0.0.
     [values addObject:[NSNumber numberWithFloat:0.0]];
-    NSLog(@"Original Y: %f", _characterView.frame.origin.y);
     
     // Add the end value.
     // CGFloat height = _textInstructions.frame.origin.y + _textInstructions.frame.size.height;
     CGFloat height = _textInstructionsLabel.frame.origin.y + _textInstructionsLabel.frame.size.height + _character.size.height - _danceButton.frame.origin.y;
-    NSLog(@"_textInstructionsLabel y: %f", _textInstructionsLabel.frame.origin.y);
-    NSLog(@"_textInstructionsLabel height: %f", _textInstructionsLabel.frame.size.height);
-    NSLog(@"_danceButton y: %f", _danceButton.frame.origin.y);
-    NSLog(@"_danceButton height: %f", _danceButton.frame.size.height);
     [values addObject:[NSNumber numberWithFloat:height]];
     
     // Set the values that should be interpolated during the animation
