@@ -203,7 +203,6 @@ const float SPEED_X = 5.0;
 
 - (void)addLeftAndRightMovement
 {
-    NSLog(@"asdf");
     CGRect frame = _characterView.frame;
     if ((frame.origin.x + accelerationX * SPEED_X) < BORDER_X) {
         frame.origin.x = BORDER_X;
