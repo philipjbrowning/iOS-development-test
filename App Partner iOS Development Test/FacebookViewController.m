@@ -31,12 +31,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    // Set the background image for the navigationBar
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"header"] forBarMetrics:UIBarMetricsDefault];
-    
-    // Set the color of the titleText to be white
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
-    
     // Add initial names to the array
     _facebookNameList = [[NSMutableArray alloc] init];
     [_facebookNameList addObject:@"Name 1"];
@@ -91,6 +85,8 @@
     // Configure the cell...
     cell.facebookName.text = [_facebookNameList objectAtIndex:indexPath.row];
     // [cell.facebookImage setImage:<#(UIImage *)#>];
+    
+    cell.backgroundColor = [UIColor clearColor];
     return cell;
 }
 

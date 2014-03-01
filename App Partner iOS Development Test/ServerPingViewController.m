@@ -35,12 +35,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
-    // Set the background image for the navigationBar
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"header"] forBarMetrics:UIBarMetricsDefault];
-    
-    // Set the color of the titleText to be white
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
 }
 
 - (void)didReceiveMemoryWarning

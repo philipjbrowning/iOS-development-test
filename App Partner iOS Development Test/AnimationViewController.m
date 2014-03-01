@@ -52,12 +52,6 @@ const float SPEED_X = 5.0;
     _textInstructionsLabel.text = @"Animate the images of the character. Make the character move up and down while tilting left and right. Bonus points if you add music and more characters.";
     [_textInstructionsLabel sizeToFit];
     
-    // Set the background image for the navigationBar
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"header"] forBarMetrics:UIBarMetricsDefault];
-    
-    // Set the color of the titleText to be white
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
-    
     // Link character UIImage
     _character = _characterView.image;
     
